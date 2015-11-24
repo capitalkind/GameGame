@@ -1,0 +1,155 @@
+body{
+  background-image: url("images/background.jpg");
+}
+h1{
+  color: rgba(255, 0, 0, .4);
+  text-shadow: 0px 0px rgba(0, 47, 255, .3);
+  font-size: 80px;
+  font-family: 'Londrina Outline', cursive;
+  text-align: center;
+  margin-bottom: -.5em;
+  margin-top: -.2em;
+}
+#card-field{
+  margin: auto;
+  width: 80%;
+  height: 60%;
+  padding: 10px;
+/*  background-color: snow;*/
+}
+h2{
+  color: rgba(255, 0, 0, .4);
+  text-shadow: 0px 0px rgba(0, 47, 255, .3);
+  font-size: 50px;
+  font-family: 'Londrina Outline', cursive;
+  text-align: center;
+  padding-top: -3em;
+  margin-bottom: 0em;
+}
+#button{
+  text-align: center;
+  display: block;
+  padding-bottom: 2em;
+}
+.button{
+  background-color: white;
+}
+#images{
+  display: block;
+  height: 200px;
+  width: 100px;
+}
+table, th, td{
+  border: 10px;
+}
+table{
+  width: 100%;
+  height: 90%;
+}
+/*tr {
+  height: 200px;*/
+}
+img {
+  position: relative;
+  max-height: 100px;
+  max-width: 100px;
+}
+td{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.a{
+  background-image: url("images/montreal.png");
+  background-size: 200px 130px;
+/*  max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+  /*position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.b{
+  background-image: url("images/newyork.png");
+  background-size: 200px 150px;
+ /* max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+ /* position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.c{
+  background-image: url("images/buffalo.png");
+  background-size: 200px 150px;
+  /*max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+ /* position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.d{
+  background-image: url("images/calgary.png");
+  background-size: 200px 130px;
+/*  max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+ /* position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.e{
+  background-image: url("images/detroit.png");
+  background-size: 200px 120px;
+ /* max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+ /* position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.f{
+  background-image: url("images/minnesota.png");
+  background-size: 200px 150px;
+/*  max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+ /* position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.g{
+  background-image: url("images/pittsburgh.png");
+  background-size: 200px 150px;
+  /*max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+ /* position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.h{
+  background-image: url("images/winnipeg.png");
+  background-size: 200px 150px;
+/*  max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+/*  position: relative;
+  height: 50%;
+  width: 50%;*/
+}
+.i{
+  background-image: url("images/boston.png");
+  background-size: 200px 150px;
+/*  max-width: 100px;
+  max-height: 100px;*/
+  background-repeat: no-repeat;
+ /* position: relative;
+  height: 50%;
+  width: 50%;*/
+}
