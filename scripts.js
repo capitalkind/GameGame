@@ -16,6 +16,7 @@ var gameTimer = document.getElementById("time");
 var start = document.getElementById("start");
 var pause = document.getElementById("pause");
 var resume = document.getElementById("resume");
+var restart = document.getElementById("restart");
 var id;
 var value = "time"
 
@@ -56,7 +57,6 @@ start.addEventListener("click", function() {
 
 pause.addEventListener("click", pauseGameTime, false);
 
-
 resume.addEventListener("click", resumeGameTime, false);
 
 ///shuffle function
@@ -93,9 +93,25 @@ function generateTable(memoryArray){
     }
 }
 
-// width = window.innerWidth;
-// if( width % 2 != 0 ){
-//     width -= 1;
-// }
+///game start button
 
-// document.getElementById("card-table").width = width;
+$('#start').click(function(){
+  $(this).hide();
+  shuffle(memoryArray);
+  generateTable(memoryArray);
+  console.log('game begins')
+});
+
+///restart button
+
+$('#restart').click(function(){
+  location.reload();
+});
+
+///image visibility
+
+function setImagesVisible(img, visible){
+  var img = document.getElementsByTagName('img');
+  img.style.visibility = (visible ? 'visible' : 'hidden');
+  console.log('images hidden');
+};
