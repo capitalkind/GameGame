@@ -6,31 +6,40 @@
   <link href='https://fonts.googleapis.com/css?family=Londrina+Outline' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <h1>NHL Memory Game</h1>
+  <h1>NHL MATCHING GAME</h1>
   <div id="field">
     <div id="header">
-      <h2>You have <span id="time"></span> minutes</h2>
+      <h2>GOALS FOR: <span class="usergoal"></span>&nbsp;&nbsp;&nbsp;GOALS AGAINST: <span class="useragainst"></span></h2>
+      <h2><span id="time"></span> ON THE CLOCK</h2>
       <div id="button">
         <button type="button" id="start">Start</button>
-        <button type="button" id="pause">Pause</button>
-        <button type="button" id="resume">Resume</button>
-        <button type="button" id="restart">Restart</button>
+        <button type="button" id="restart">New Game</button>
       </div>
     </div>
-    <div id="card-field">
-      <div id="cards">
-        <table id="card-table">
-          <tr id="tr-one">
-
-          </tr>
-          <tr id="tr-two">
-
-          </tr>
-          <tr id="tr-three">
-
-          </tr>
-        </table>
-
+    <div class="card-field">
+      <div class="cards">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="cards">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="cards">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   </div>

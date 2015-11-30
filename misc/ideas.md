@@ -50,3 +50,8 @@ timer starts, images are randomized, they remain hidden math.random to randomize
 card gets clicked on, revealing it 
 another card gets clicked on, revealing it 
 if they don't match, they both get hidden 
+
+
+Table idea doesn't work, trying Divs instead 
+Also I've been going at this the wrong way, trying to force the table and ignoring the LOGIC of the game itself 
+Opacity! 
