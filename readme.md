@@ -17,5 +17,4 @@ The score is tallied and displayed in the h2 at the top of the page, along with 
 The getWinner function keeps track of the score and displays an alert at the end of the game as to 
 whether or not the "home team", the user, has won the game. 
 
-The other main function is createImageArray, which makes an array out of the images of NHL team logos and 
-randomizes that array into a new array which gets appended into our 18 divs.
+The other main function is createImageArray, which makes an array out of the images of NHL team logos and randomizes that array into a new array which gets appended into our 18 divs.
