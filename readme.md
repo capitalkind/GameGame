@@ -6,7 +6,7 @@ In the HTML there are three sets of six divss, to create a field of 18
 The main function is called imageClick, the idea behind it is that when a div is clicked the overlay's 
 z-index is set to 9999, while its child img has it's opacity animated to 1 to allow it to be seen 
 
-Within this there is a function to increase a count number by the two <div>s upon which a user clicks
+Within this there is a function to increase a count number by the two divs upon which a user clicks
 These clicks assign the class of "clickedImage" 
 If the Ids of these two clicked divs match, the user scores a goal! 
 
