@@ -34,7 +34,7 @@ randomizes that array into a new array which gets appended into our 18 divs.
 
 The user interface is responsive and can be comfortably played on all mobile devices. 
 
-![Responsive design](http://i.imgur.com/appm2dU.png?raw=true "An example of the game's responsive design")
+![Responsive design](http://i.imgur.com/e6cqlma.png?raw=true "An example of the game's responsive design")
 
 <h3>Technologies Used</h3>
 <ul>
