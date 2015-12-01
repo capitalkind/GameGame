@@ -1,14 +1,17 @@
 <h1>NHL Matching Game</h1>
 This is a image matching game with an NHL theme.
 
+Play the game here: http://capitalkind.github.io/GameGame/
+
 <h3>Gameplay</h3>
+
 The user must attempt to match the logos of 9 NHL teams in the span of a minute. 
 
 A correct match earns the user a goal for, while an incorrect match counts as a goal against the user.
 
 In effect the user is playing against his or her self. 
 
-![Game in progress](http://i.imgur.com/7arJ2I5.jpg?raw=true "Two sets of correct matches, and an incorrect match fading")
+![Game in progress](http://i.imgur.com/7arJ2I5.jpg?raw=true "Two sets of correct matches, and an incorrect match fading away")
 
 <h3>The Approach</h3>
 The main function is called imageClick. When one of the 18 divs is clicked, the z-index of the div's overlay is set to 9999, while its child img has it's opacity animated to 1 to allow it to be seen. 
@@ -17,6 +20,8 @@ Within this there is a function to increase a count number by the two divs upon 
 These clicks assign the class of "clickedImage" and if the Ids of these two clicked divs match, the user scores a goal! 
 
 However, if they do not match they animate back to an opacity of 0 and a goal against the user is scored. Having the user play against themselves makes the game more challenging, and fun, than if the user were simply piling up goals. 
+
+![A winning gamw](http://i.imgur.com/GXl4ska.jpg?raw=true "The home team wins!")
 
 The score is tallied and displayed in the h2 at the top of the page, along with a countdown timer that is 
 mapped to a start button to begin the game and fire off the necessary functions.
@@ -28,6 +33,8 @@ The other main function is createImageArray, which makes an array out of the ima
 randomizes that array into a new array which gets appended into our 18 divs.
 
 The user interface is responsive and can be comfortably played on all mobile devices. 
+
+![Responsive design](http://i.imgur.com/appm2dU.png?raw=true "An example of the game's responsive design")
 
 <h3>Technologies Used</h3>
 <ul>
