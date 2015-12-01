@@ -27,6 +27,8 @@ whether or not the "home team", the user, has won the game.
 The other main function is createImageArray, which makes an array out of the images of NHL team logos and 
 randomizes that array into a new array which gets appended into our 18 divs.
 
+The user interface is responsive and can be comfortably played on all mobile devices. 
+
 <h3>Technologies Used</h3>
 <ul>
   <li>HTML</li>
